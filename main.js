@@ -33,14 +33,15 @@
         startTime = Date.now();
         countUp();
         start.disabled = true;
+        reset.disabled = true;
         stop.disabled = false;
-        reset.disabled = false;
     });
 
     stop.addEventListener('click',function(){
        clearTimeout(timerId);
        timeToadd += Date.now() - startTime;
        stop.disabled = true;
+       reset.disabled = false;
     });
 
     reset.addEventListener('click',function(){
