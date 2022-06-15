@@ -1,0 +1,32 @@
+body {
+    background-color: #faebd7;
+}
+
+.wrapper{
+  max-width: 350px;
+  margin: 0 auto;
+  color: #666;
+}
+
+#header,#timer {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*ヘッダー*/
+
+#header {
+  font-size: 24px;
+  padding: 1rem;
+}
+
+#timer {
+  font-size: 24px;
+}
+
+/*ボタン*/
+
+.btns {
+  font-size: 20px;
+  text-align: center;
+}
