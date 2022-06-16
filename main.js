@@ -42,6 +42,7 @@
        timeToadd += Date.now() - startTime;
        stop.disabled = true;
        reset.disabled = false;
+       start.disabled = false;
     });
 
     reset.addEventListener('click',function(){
